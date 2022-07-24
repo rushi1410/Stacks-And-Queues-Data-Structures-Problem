@@ -13,5 +13,12 @@ public class StackQueueMain {
 		stack.pop();
 		stack.printStack();
 
+		System.out.println("\n Queue Created:");
+		QueuesOperation queue = new QueuesOperation();
+		queue.enqueue(56);
+		queue.enqueue(30);
+		queue.enqueue(70);
+		queue.printQueue();
+
 	}
 }
