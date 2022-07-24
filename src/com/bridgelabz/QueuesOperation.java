@@ -18,6 +18,10 @@ public class QueuesOperation {
 		}
 	}
 
+	public void dequeue() {
+		System.out.println("\nDequeued element is " + head.data);
+		head = head.next;
+	}
 
 	public void printQueue(){
 		if (head == null) {
