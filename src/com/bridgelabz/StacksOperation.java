@@ -14,6 +14,13 @@ public class StacksOperation {
 		return top;
 	}
 
+	public void pop () {
+		if (top!=null) {
+			System.out.println("Popped element is " + top.data);
+		}
+		top = top.next;
+	}
+
 	public void peak() {
 		if (top != null) {
 			System.out.println("Top of the stack is " + top.data);
@@ -34,4 +41,5 @@ public class StacksOperation {
 			temp = temp.next;
 		}
 	}
+
 }
